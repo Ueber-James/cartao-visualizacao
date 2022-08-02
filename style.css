@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  
+}
+
+main{
+    width: 100%;
+}
+
+.card{
+    min-width: 600px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.img{
+    width: 50%;
+    background-image: url(imagem/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 35px 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text-categoria{
+
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+ h1{
+    font-size: 38px;
+    color: hsl(212, 21%, 14%);
+}
+
+.descricao{
+    width: 85%;
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+
+.preco{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.novo{
+    font-size: 36px;
+    color:hsl(158, 36%, 37%) ;
+}
+
+.antigo{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+button{
+    width: 100%;
+    padding: 17px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 7px;
+    background-color:hsl(158, 36%, 37%) ;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button img{
+    margin-right: 8px;
+}
+ /* .container {
+  max-width: 350px;
+  margin: 0 auto;
+} */
+
+ /* .card {
+  display: flex;
+  width: 650px;
+  height: 500px;
+  padding: 18px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 0;
+  border-radius: 18px;
+} */
+/*
+.card img {
+  height: 500px;
+  border-radius: 18px;
+}
+.text{
+    text-align: left;
+    margin: 0px 50px 0px 10px;
+}
+
+.text p{
+    
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%);
+    padding: 20px;
+}  */ 
